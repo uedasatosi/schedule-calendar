@@ -10,7 +10,7 @@ export default function Calender() {
   ];
   console.log(month);
   return (
-    <Grid container>
+    <Grid container sx={{ width: "60%" }}>
       {month.map((days, index) => (
         <CalenderRow days={days} />
       ))}
