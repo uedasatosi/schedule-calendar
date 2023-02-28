@@ -4,7 +4,7 @@ type TimeLineTextBoxprops = [
         plan: "ToDo";
     }
 ];
-export default function TimeLineTextBox([
+export default function TimeLineBoxFlame([
     { Date, plan },
 ]: TimeLineTextBoxprops) {
     const ToDoBox = [
@@ -13,4 +13,5 @@ export default function TimeLineTextBox([
             plan: "ToDo",
         },
     ];
+    return <></>;
 }
